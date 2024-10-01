@@ -80,6 +80,7 @@ const products = [
     description: "Description for product 10",
   },
 ];
-export const getProducts = async (req, res) => {
+
+export const getProducts = (req, res) => {
   res.json(products);
 };
